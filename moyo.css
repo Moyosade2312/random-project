@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.big-box{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+}
+.left-box{
+    width: 20%;
+    background-color: blue;
+    color: white;
+}
+    .left-box nav ul {
+        list-style-type: none;
+        padding: 0;
+        color: white;
+    }
+    .left-box a{
+        color: white;
+    }
+    .right-box{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-top{
+        height: 20%;
+        background-color: white;
+    }
+    .right-top > div{
+    background-color: white;
+        height: 100%;
+}
+
+.right-bottom{
+    background-color: beige;
+    height: 80%;
+    display: flex;
+}
+.right-bottom-left-parent{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.right-bottom-left{
+    height: 90%;
+    justify-content: center;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.right-bottom-right{
+    width: 30%;
+    background-color:rgb(141, 58, 58);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.r-bottom-r-child{
+    height: 50%;
+    background-color: rgb(245, 236, 236);
+    display: flex;
+    flex-direction: column;
+}
+.r-b-l-child{
+    height: 33.3%;
+    width: 49.5%;
+    background-color: white;
+}
+.r-bottom-r-child div{
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+    margin: ;
+}
+
+
+
+button{
+    padding: 10px,20px;
+    background-color: rgb(145, 4, 39);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    margin-right:10px ;
+    justify-content: right;
+    align-items: last baseline;   
+}
+
+
+
+
+
